@@ -10,48 +10,28 @@
   
 <body>
   
-	<h1>Mon formulaire</h1>
+	<h1>Dresseur de pokémon</h1>
+	<p>Les champs marqués d'une * sont obligatoires.</p>
 
 <form action="#">
-  
-  <fieldset>
-    <legend>Votre Nom et Prénom</legend>
-    <p>Nom : <input name="A" type="Text"/></p>
-    <p>Prénom : <input name="B" type="Text"/></p>
-  </fieldset>
-  
-  <p>Mr <input name="C" type="radio" value="Mr"/> 
-  Mme<input name="C" type="radio" value="Mme"/></p>
+	<fieldset>
+	<legend>Nouveau dresseur</legend>
+		
+	<p>Nom*<br><input name="A" type="Text"/></p>
+    	<p>Description<br><input name="B" type="Text"/></p>
 
-  <p>Sélectionnez les langages informatiques en cours d'apprentissage :</p>
-  <p>
-    HTML <input name="D" type="checkbox" value="HTML"/>
-    CSS <input name="E" type="checkbox" value="CSS"/>
-    JavaScript <input name="F" type="checkbox" value="JavaScript"/>
-    Java <input name="G" type="checkbox" valeur="Java"/>
-    Python <input name="G" type="checkbox" valeur="Java"/>
-    SQL<input name="G" type="checkbox" valeur="SQL"/>
-  </p>
-  
-  <p> Quel navigateur web utilisez-vous ? <br><br>
-  <select name="G" multiple>
-  	<option>Google Chrome</option>
-  	<option>Apple Safari</option>
-  	<option>Mozilla Firefox</option>
-    <option>Microsoft Edge</option>
-    <option>Autre</option>
-  </select>
-  </p>
-  
-  <p>
-    <textarea rows="3" cols="30	" name="H">Décrivez le site web ou le programme que vous souhaiteriez créer.</textarea>
-  </p>
-  
-<p><input type="submit" value="Envoyer" />
-<input type="reset"/>
-</p>
+	<p>Equipe</p>
+	<p><input name="C" type="radio" value="Rouge">Rouge</p>
+	<p><input name="C" type="radio" value="Jaune">Jaune</p>
+	<p><input name="C" type="radio" value="Bleu">Bleu</p>
 
+	<p>Anniversaire*<br>
+    <textarea rows="1" cols="30	" name="H">jj/mm/aaaa</textarea>
+  	</p>
+  
+<p><input type="submit" value="Envoyer" /></p>
 
+</fieldset>
 </form>
 
 </body>
