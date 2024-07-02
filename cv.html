@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="cv.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" >
+</head>
+<body>
+    <div id="grid">
+        <header>
+            <h1>EXAMEN<br>CNAM <b>NFA040</b></h1>
+        </header>
+        <figure>
+            <img src="StockPhotoCV.jpg" alt="Photographie du candidat (stock)">
+            <figcaption>* stock photo</figcaption>
+        </figure>
+        <aside id="information">
+            <p class="info">Arthur Barré</p>
+            <p class="champs">Adresse</p>
+            <p class="info">54 avenue de Jean-Jaurès<br>CLICHY 92110</p>
+            <p class="champs">Téléphone</p>
+            <p class="info">06 84 01 70 62</p>
+            <p class="champs">E-Mail</p>
+            <p class="info"><a href="mailto:barre.arthur@live.fr">barre.arthur@live.fr</a></p>
+        </aside>
+        <div id="fill"></div>
+        <section id="objectif">
+            <h2>Objectif Professionnel</h2>
+            <p>Je suis actuellement en reconversion professionnelle. Après quelques années passées à enseigner la philosophie dans un lycée catholique en Savoie, j'ai décidé de me reconvertir dans l'informatique. J'ai pris beaucoup de plaisir à enseigner, mais je souhaite exercer un métier qui me donnerait davantage de liberté, et la possibilité de voyager et d'émigrer à l'étranger. Je suis une formation de technicien développeur à la CNAM, et j'espère poursuivre ensuite sur un diplôme d'ingénieur.</p>
+        </section>
+        <section id="formation">
+            <h2>Formation Académique <span class="material-symbols-outlined">school</span></h2>
+            <p class="établissement">Université Paris-Sorbonne</p>
+            <p class="diplome">Master de Philosophie</p>
+            <p class="diplome">Agrégation de Philosophie</p>
+            <p class="établissement">CNAM</p>
+            <p class="diplome">Titre RNCP Développeur Informatique</p>
+        </section>
+        <section id="experience">
+            <h2>Expérience Professionnelle <span class="material-symbols-outlined">work</span></h2>
+            <p class="date">Septembre 2019 - Juin 2020</p>
+            <p class="exp">Chargé de TD</p>
+            <p class="date">Septembre 2020 - Juillet 2023</p>
+            <p class="exp">Enseignant de philosophie au lycée Prévert d'Annecy</p>
+        </section>
+        <section id="compétence">
+            <h2>Compétences<span class="material-symbols-outlined">new_releases</span></h2>
+            <p class="comp"><span class="material-symbols-outlined">arrow_forward</span>
+            Maitrise des languages informatiques suivants :</p>
+            <div class="languages">
+                <p>Java</p>
+                <p>HTML</p>
+                <p>CSS</p>
+                <p>JavaScript</p>
+                <p>SQL</p>
+            </div>
+            <p class="comp"><span class="material-symbols-outlined">arrow_forward</span>
+            Maîtrise de Git et GitHub pour la gestion du code source, le contrôle de version et la collaboration sur des projets.</p>
+        </section>
+        <section id="loisir">
+            <h2>Loisirs & Passions</h2>
+            <ul>
+                <li>Ski et randonnées alpines</li>
+                <li>Histoire médiévale</li>
+                <li>Programmation</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <form action="" method="POST">
+                <h2></h2>
+                <h2>Contact</h2>
+                <label for="prénom">Prénom</label>
+                <input type="text" id="prénom" name="prénom">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom">
+                <label for="email">E-Mail</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" placeholder="..."></textarea>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </div>
+</body>
+</html>
